@@ -1,0 +1,327 @@
+{
+  "type": "scene",
+  "properties": {
+    "baseExtent": {
+      "cx": 619323.5150210196,
+      "cy": 2548759.776228319,
+      "width": 5338.497343007242,
+      "height": 5338.497343007242,
+      "rotation": 0
+    },
+    "origin": {
+      "x": 619323.5150210196,
+      "y": 2548759.776228319,
+      "z": 0.0
+    },
+    "zScale": 1.2,
+    "light": "directional"
+  },
+  "layers": [
+    {
+      "type": "layer",
+      "id": 4,
+      "properties": {
+        "name": "Dry Season",
+        "clickable": true,
+        "visible": true,
+        "type": "dem",
+        "clipped": false,
+        "mtlNames": [
+          "map (canvas)"
+        ],
+        "mtlIdx": 0
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 4,
+          "block": 0,
+          "materials": [
+            {
+              "type": 0,
+              "image": {
+                "url": "./data/index/a0.png"
+              },
+              "ds": 1,
+              "mtlIndex": 0,
+              "useNow": true
+            }
+          ]
+        },
+        {
+          "type": "block",
+          "layer": 4,
+          "block": 0,
+          "width": 5338.497343007242,
+          "height": 5338.497343007242,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "zScale": 1.2,
+          "grid": {
+            "width": 201,
+            "height": 201,
+            "url": "./data/index/a0.bin"
+          }
+        }
+      ]
+    },
+    {
+        "type": "layer",
+        "id": 5,
+        "properties": {
+          "name": "Wet Season",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 5,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/b0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 5,
+            "block": 0,
+            "width": 5338.497343007242,
+            "height": 5338.497343007242,
+            "translate": [
+              0.0,
+              0.0,
+              50
+            ],
+            "zScale": 1.2,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/b0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 6,
+        "properties": {
+          "name": "Soil Moisture - 5 cm",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 6,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/c0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 6,
+            "block": 0,
+            "width": 5338.497343007242,
+            "height": 5338.497343007242,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.2,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/c0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 7,
+        "properties": {
+          "name": "ESA WorldCover",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 7,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/d0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 7,
+            "block": 0,
+            "width": 5338.497343007242,
+            "height": 5338.497343007242,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.2,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/d0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 8,
+        "properties": {
+          "name": "Normalized Difference Vegetation Index",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 8,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/e0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 8,
+            "block": 0,
+            "width": 5338.497343007242,
+            "height": 5338.497343007242,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.2,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/e0.bin"
+            }
+          }
+        ]
+      },
+      {
+        "type": "layer",
+        "id": 9,
+        "properties": {
+          "name": "Topographic Wetness Index",
+          "clickable": true,
+          "visible": true,
+          "type": "dem",
+          "clipped": false,
+          "mtlNames": [
+            "map (canvas)"
+          ],
+          "mtlIdx": 0
+        },
+        "data": [
+          {
+            "type": "block",
+            "layer": 9,
+            "block": 0,
+            "materials": [
+              {
+                "type": 0,
+                "image": {
+                  "url": "./data/index/f0.png"
+                },
+                "ds": 1,
+                "mtlIndex": 0,
+                "useNow": true
+              }
+            ]
+          },
+          {
+            "type": "block",
+            "layer": 9,
+            "block": 0,
+            "width": 5338.497343007242,
+            "height": 5338.497343007242,
+            "translate": [
+              0.0,
+              0.0,
+              0
+            ],
+            "zScale": 1.2,
+            "grid": {
+              "width": 201,
+              "height": 201,
+              "url": "./data/index/f0.bin"
+            }
+          }
+        ]
+      }
+  ]
+}
