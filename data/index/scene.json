@@ -74,7 +74,7 @@
         "properties": {
           "name": "Wet Season",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -125,7 +125,7 @@
         "properties": {
           "name": "Soil Moisture - 5 cm",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -176,7 +176,7 @@
         "properties": {
           "name": "ESA WorldCover",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -227,7 +227,7 @@
         "properties": {
           "name": "Normalized Difference Vegetation Index",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
@@ -278,7 +278,7 @@
         "properties": {
           "name": "Topographic Wetness Index",
           "clickable": true,
-          "visible": true,
+          "visible": false,
           "type": "dem",
           "clipped": false,
           "mtlNames": [
