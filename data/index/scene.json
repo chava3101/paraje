@@ -70,7 +70,7 @@
     },
     {
         "type": "layer",
-        "id": 4,
+        "id": 5,
         "properties": {
           "name": "Wet Season",
           "clickable": true,
@@ -85,7 +85,7 @@
         "data": [
           {
             "type": "block",
-            "layer": 4,
+            "layer": 5,
             "block": 0,
             "materials": [
               {
@@ -101,14 +101,14 @@
           },
           {
             "type": "block",
-            "layer": 4,
+            "layer": 5,
             "block": 0,
             "width": 5338.497343007242,
             "height": 5338.497343007242,
             "translate": [
               0.0,
               0.0,
-              0
+              50
             ],
             "zScale": 1.2,
             "grid": {
