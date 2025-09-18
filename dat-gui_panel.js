@@ -61,7 +61,37 @@ Q3D.gui.dat = {
 		var params = this.parameters;
 
 		var visibleChanged = function (value) {
+			if (value) {
+				// If this layer is being made visible, hide all other layers
+				for (var layerId in mapLayers) {
+					if (layerId !== this.object.i) {
+						mapLayers[layerId].visible = false;
+						params.lyr[layerId].v = false;
+						// Update the GUI to reflect the change
+						for (var i in _this.gui.__folders) {
+							var folder = _this.gui.__folders[i];
+							if (folder.name === 'Layers') {
+								for (var j in folder.__folders) {
+									var layerFolder = folder.__folders[j];
+									if (layerFolder.name === mapLayers[layerId].properties.name) {
+										for (var k in layerFolder.__controllers) {
+											var controller = layerFolder.__controllers[k];
+											if (controller.property === 'v') {
+												controller.updateDisplay();
+												break;
+											}
+										}
+										break;
+									}
+								}
+								break;
+							}
+						}
+					}
+				}
+			}
 			mapLayers[this.object.i].visible = value;
+			app.render(); // Update the scene to reflect visibility changes
 		};
 
 		var opacityChanged = function (o) {
